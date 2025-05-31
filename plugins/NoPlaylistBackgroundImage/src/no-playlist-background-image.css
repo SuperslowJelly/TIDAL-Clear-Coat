@@ -1,10 +1,10 @@
 [class^="_dataContainer_"]:before {
-  --img: none !important;
+  --img: none;
   background-image: none;
 }
 
 [class^="_smallHeader_"]:before {
-  --img: none !important;
+  --img: none;
   background-color: color-mix(in srgb,var(--wave-color-solid-base-brighter),transparent 70%) !important;
   filter: none !important;
 }
