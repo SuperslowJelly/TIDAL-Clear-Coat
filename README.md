@@ -5,7 +5,10 @@ They're really just for me, but you can use them if you want :)
 ## 🛠️ How to Install
 1. Get [TidaLuna](https://github.com/Inrixia/TidaLuna).
 2. Navigate to `Luna Settings > Plugin Store`.
-3. Paste the plugin URL into the `Install From URL` box.
+3. Paste this URL into the `Install From URL` box:
+```
+https://github.com/SuperslowJelly/TIDAL-Clear-Coat/releases/download/latest/store.json
+```
 
 ## 🔌 Plugins
 ### [🧊 No Playlist Background Image](./plugins/NoPlaylistBackgroundImage/)
