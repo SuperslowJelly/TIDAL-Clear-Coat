@@ -2,3 +2,9 @@
   --img: none !important;
   background-image: none;
 }
+
+[class^="_smallHeader_"]:before {
+  --img: none !important;
+  background-color: color-mix(in srgb,var(--wave-color-solid-base-brighter),transparent 70%) !important;
+  filter: none !important;
+}
