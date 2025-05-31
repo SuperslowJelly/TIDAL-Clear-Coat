@@ -1,0 +1,11 @@
+/*
+{
+  "name": "No Playlist Background Image",
+  "author": "Chae Taylor",
+  "description": "Removes the background image from the playlist header tab."
+}
+*/
+[class^="_dataContainer_"]:before {
+  --img: none;
+  background-image: none;
+}
