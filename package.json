@@ -1,6 +1,6 @@
 {
 	"name": "@superslowjelly/clearcoat",
-	"description": "Mostly visual quality of life tweaks for Tidal",
+	"description": "🧼 Mostly visual quality of life tweaks for Tidal",
 	"type": "module",
 	"scripts": {
 		"watch": "concurrently \"pnpm:build --watch\" pnpm:serve",
