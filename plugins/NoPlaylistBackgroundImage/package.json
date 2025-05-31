@@ -1,7 +1,7 @@
 {
-	"name": "No Playlist Background Image",
+	"name": "NoPlaylistBackgroundImage",
 	"description": "Removes the gross background image from the playlist header tab for a less cluttered look.",
-	"homepage": "https://github.com/Inrixia/luna-plugins#CoverTheme",
+	"homepage": "https://github.com/SuperslowJelly/TIDAL-Clear-Coat/tree/main/plugins/NoPlaylistBackgroundImage",
 	"author": {
 		"name": "Chae Taylor",
 		"url": "https://github.com/SuperslowJelly",
