@@ -1,0 +1,13 @@
+{
+	"name": "No Playlist Background Image",
+	"description": "Removes the gross background image from the playlist header tab for a less cluttered look.",
+	"homepage": "https://github.com/Inrixia/luna-plugins#CoverTheme",
+	"author": {
+		"name": "Chae Taylor",
+		"url": "https://github.com/SuperslowJelly",
+		"avatarUrl": "https://cdn.discordapp.com/avatars/275923666917654529/a_b02bcaa9a3211053af95e7e6c411c595?size=1024"
+	},
+	"exports": "./src/index.tsx",
+	"type": "module",
+	"dependencies": {}
+}
