@@ -5,7 +5,7 @@
   "description": "Removes the background image from the playlist header tab."
 }
 */
-[class^="_dataContainer_"]:before {
-  --img: none;
+[class^="_dataContainer_"]::before {
+  --img: none !important;
   background-image: none;
 }
