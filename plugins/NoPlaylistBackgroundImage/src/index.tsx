@@ -18,5 +18,19 @@ export const manifest = {
 // Allow TidaLuna to clean up this style when the plugin unloads.
 export const unloads = new Set<LunaUnload>();
 
-// Inject the CSS via StyleTag.
-export const style = new StyleTag("NoPlaylistBackgroundImage", unloads, noPlaylistBackgroundCss);
+// Inject the CSS via StyleTag, but defer injection until after TIDAL has finished loading its own CSS.
+export let style: StyleTag | null = null;
+
+function injectCss() {
+	if (style) return;
+
+	// Creating the StyleTag later ensures it is appended after TIDAL's startup styles,
+	// preventing it from being overridden.
+	style = new StyleTag("NoPlaylistBackgroundImage", unloads, noPlaylistBackgroundCss);
+}
+
+if (document.readyState === "complete") {
+	injectCss();
+} else {
+	window.addEventListener("load", injectCss, { once: true });
+}
